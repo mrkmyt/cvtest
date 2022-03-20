@@ -1,4 +1,4 @@
-name: CI Pipeline to test
+name: Build
 
 on:
   push:
@@ -28,7 +28,6 @@ jobs:
     -
       name: create artifacts
       run: |
+        cd datadrivencv
         R CMD build datadrivencv    
         R CMD INSTALL datadrivencv
-        pwd
-        ls -la

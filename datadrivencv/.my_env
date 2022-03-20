@@ -1,8 +1,3 @@
-TACACS Needed
-
-S1583 - Landrover Jaguar Volvo - Openserve (Primary) - 101463530 | Device | Supergroup Network Monitor (reflex.co.za)hklfg;hkjkyle randall dkcmcjsduwi2opwosl
-
-
 devtools::install_github("mjmammoth/datadrivencv")
 
 datadrivencv::use_datadriven_cv(

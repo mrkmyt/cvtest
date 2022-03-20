@@ -1,0 +1,1 @@
+[![Build](https://github.com/mrkmyt/cvtest/actions/workflows/pipeline.yaml/badge.svg)](https://github.com/mrkmyt/cvtest/actions/workflows/pipeline.yaml)
