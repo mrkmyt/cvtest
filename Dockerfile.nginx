@@ -1,0 +1,7 @@
+FROM core.harbor.markmarryatt.me/markm-home/datadrivencv-builder:latest
+COPY generate-cv.Rscript /
+RUN /generate-cv.Rscript
+FROM nginx:alpine
+LABEL Mark Marryatt "mjmarryatt@gmail.com"
+COPY nginx.conf /etc/nginx/
+COPY --from=0 /cv* /usr/share/nginx/html/
